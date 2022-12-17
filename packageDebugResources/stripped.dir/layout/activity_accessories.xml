@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories"
+    android:layout_gravity="center"
+    android:alpha="0.7"
+    android:background="@drawable/boat_tied_to_pier"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/txtAdditionalSvcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/accessories_hair"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_AccessoryRecommend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAdditionalSvcs">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtHairCare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/hair"
+                        android:textColor="#9C27B0"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/HairCare"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtMakeUp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Make-Up"
+                        android:textColor="#9C27B0"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textMakeUpTxt"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/Makeup"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Genesis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/genesis"
+                        android:textColor="#9C27B0"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imgGenesis"
+                        android:layout_width="84dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/genesis"/>
+
+                    <TextView
+                        android:id="@+id/textViewGenesis"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/Genesis"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnGenesis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:onClick="browser1"
+                        android:text="Genesis Salon" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/BeautyByLisa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/beauty_by_lisa"
+                        android:textColor="#9C27B0"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imgBeautyByLisa"
+                        android:layout_width="84dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/beauty_by_lisa"/>
+
+                    <TextView
+                        android:id="@+id/textViewBeautyByLisa"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/Beauty_by_Lisa"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnBeautyByLisa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:onClick="browser1"
+                        android:text="Beauty by Lisa" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Nikkis_Beauty_Salon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/nikkis_beauty_salon"
+                        android:textColor="#9C27B0"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/img_nikkis_beauty"
+                        android:layout_width="84dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/nikkis_beauty"/>
+
+                    <TextView
+                        android:id="@+id/textViewNikkis_Beauty_Salon"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/Nikkis_Beauty_Salon"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnNikkisBeautySalon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:onClick="browser1"
+                        android:text="Nikki's Beauty Salon" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtPatrickGildea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/gildea"
+                        android:textColor="#090909"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imgPatrick_Gildea"
+                        android:layout_width="84dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/patrick_gildea" />
+
+                    <TextView
+                        android:id="@+id/textPatrickGildea"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/Patrick_Gildea_Info"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnPatrickGildea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:onClick="browser1"
+                        android:text="Patrick Gildea, Letterkenny" />
+
+                    <Button
+                        android:id="@+id/btnPatrickGildeaFB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:onClick="browser1"
+                        android:text="Patrick Gildea FB" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtUrsulasHeadgear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/headgear"
+                        android:textColor="#101A55"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textUrsula"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/Ursula_Info"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnUrsulasHeadwear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:onClick="browser1"
+                        android:text="@string/headgear" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtClothingStores"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Clothing Stores"
+                        android:textColor="#090909"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textClothing"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/Clothing"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtMcElhinneys"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/mcelhinneys"
+                        android:textColor="#090909"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imgMcElhinneys"
+                        android:layout_width="84dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/mcelhinneys" />
+
+                    <TextView
+                        android:id="@+id/textMcElhinneys"
+                        android:layout_width="316dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="center"
+                        android:text="@string/McElhinneys"
+                        android:textColor="#2E2A2A"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnMcElhinneys"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:onClick="browser1"
+                        android:text="@string/mcelhinneys" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_AccessoryRecommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/addAccessory"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintBottom_toTopOf="@id/btnAdditionalSvcs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnAdditionalSvcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/additional_svcs"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_AccessoryRecommend"
+        app:layout_constraintBottom_toTopOf="@id/btnHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Home"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdditionalSvcs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
