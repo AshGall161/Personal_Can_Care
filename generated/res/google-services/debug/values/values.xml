@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">226679855565-gs4o6ck28fbkqvvn56rh2qnd3u0jlg13.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">226679855565</string>
+    <string name="google_api_key" translatable="false">AIzaSyBrI64k0Un9x45uwb7TRJaDDnMMctlaRFs</string>
+    <string name="google_app_id" translatable="false">1:226679855565:android:0fa4791058baf068cacc84</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBrI64k0Un9x45uwb7TRJaDDnMMctlaRFs</string>
+    <string name="google_storage_bucket" translatable="false">personal-can-care-e7390.appspot.com</string>
+    <string name="project_id" translatable="false">personal-can-care-e7390</string>
+</resources>
