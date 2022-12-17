@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "226679855565",
+    "project_id": "personal-can-care",
+    "storage_bucket": "personal-can-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226679855565:android:0fa4791058baf068cacc84",
+        "android_client_info": {
+          "package_name": "com.aislingstuffthatmatters.personal_can_care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226679855565-nr2j4021l757h78r2vgrer4s7o3mum1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aislingstuffthatmatters.personal_can_care",
+            "certificate_hash": "abbb75957994ae9ac9d6eddb12ccc8f82504f256"
+          }
+        },
+        {
+          "client_id": "226679855565-gs4o6ck28fbkqvvn56rh2qnd3u0jlg13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrI64k0Un9x45uwb7TRJaDDnMMctlaRFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226679855565-gs4o6ck28fbkqvvn56rh2qnd3u0jlg13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
