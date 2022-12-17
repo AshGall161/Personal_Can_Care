@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunset"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/welcome"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/txtQuote"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_below="@id/txtWelcome"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/quote"
+        android:textColor="#00BCD4"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/tv_clickNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtQuote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/clickNext"
+        android:textColor="#050505"/>
+
+    <Button
+        android:id="@+id/btnShowQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_clickNext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/inspirational_quote"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnAdditionalSvcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShowQuote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/additional_svcs"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnNecessarySvcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdditionalSvcs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/necessary_svcs"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck"/>
+
+</RelativeLayout>

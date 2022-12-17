@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietRecommend"
+    android:background="@drawable/sky_n_sea"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="@string/your_diet_recommend"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold|italic"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_dietName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/diet_spice"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_dietName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/diet_spice"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_dietLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/diet_where"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_dietLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/diet_locate"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_dietDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/description"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_dietDescription"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/description"
+        android:textColor="#0C0C0C"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/submit"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/ViewAll"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnAdditionalSvcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/additional_svcs"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/home"
+        android:textSize="16sp"/>
+
+</LinearLayout>

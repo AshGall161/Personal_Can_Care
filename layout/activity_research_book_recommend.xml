@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Research_Book_Recommend"
+    android:background="@drawable/sky_n_sea"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="@string/recommended_book_title"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold|italic"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_authorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/AuthorName"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_authorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/author_info"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Book_Title"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_bookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/Book_Title"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_bookLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/book_location"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_bookLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/bookLocation"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_viewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/ViewAll"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnAdditionalSvcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/additional_svcs"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/home"
+        android:textSize="16sp"/>
+
+</LinearLayout>
