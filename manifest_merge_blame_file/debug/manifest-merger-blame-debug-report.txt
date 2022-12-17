@@ -1,0 +1,741 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aislingstuffthatmatters.personal_can_care"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:12:5-79
+12-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:12:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1c8f5b7984bbf5f7fdd104ef85e82737\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1c8f5b7984bbf5f7fdd104ef85e82737\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1c8f5b7984bbf5f7fdd104ef85e82737\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1c8f5b7984bbf5f7fdd104ef85e82737\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:7:5-104:19
+18        android:allowBackup="true"
+18-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b358db6c4badd91532e07e741dfb3644\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:12:9-35
+25        android:theme="@style/Theme.AppCompat.NoActionBar" >
+25-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:13:9-59
+26        <activity
+26-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:14:9-16:40
+27            android:name="com.aislingstuffthatmatters.personal_can_care.Help"
+27-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:15:13-33
+28            android:exported="false" />
+28-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:16:13-37
+29        <activity
+29-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:17:9-19:40
+30            android:name="com.aislingstuffthatmatters.personal_can_care.Research_Video_Recommend"
+30-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:18:13-53
+31            android:exported="false" />
+31-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:19:13-37
+32        <activity
+32-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:20:9-22:40
+33            android:name="com.aislingstuffthatmatters.personal_can_care.Research_Book_Recommend"
+33-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:21:13-52
+34            android:exported="false" />
+34-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:22:13-37
+35        <activity
+35-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:23:9-25:40
+36            android:name="com.aislingstuffthatmatters.personal_can_care.NecessarySvcsRecommendShow"
+36-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:24:13-55
+37            android:exported="false" />
+37-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:25:13-37
+38        <activity
+38-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:26:9-28:40
+39            android:name="com.aislingstuffthatmatters.personal_can_care.WellnessRecommendShow"
+39-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:27:13-50
+40            android:exported="false" />
+40-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:28:13-37
+41        <activity
+41-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:29:9-31:40
+42            android:name="com.aislingstuffthatmatters.personal_can_care.WellnessRecommend"
+42-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:30:13-46
+43            android:exported="false" />
+43-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:31:13-37
+44        <activity
+44-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:32:9-34:40
+45            android:name="com.aislingstuffthatmatters.personal_can_care.Wellness"
+45-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:33:13-37
+46            android:exported="false" />
+46-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:34:13-37
+47        <activity
+47-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:35:9-37:40
+48            android:name="com.aislingstuffthatmatters.personal_can_care.ShopRecommendShow"
+48-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:36:13-46
+49            android:exported="false" />
+49-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:37:13-37
+50        <activity
+50-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:38:9-40:40
+51            android:name="com.aislingstuffthatmatters.personal_can_care.ShopRecommend"
+51-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:39:13-42
+52            android:exported="false" />
+52-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:40:13-37
+53        <activity
+53-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:41:9-43:40
+54            android:name="com.aislingstuffthatmatters.personal_can_care.Shop"
+54-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:42:13-33
+55            android:exported="false" />
+55-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:43:13-37
+56        <activity
+56-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:44:9-46:40
+57            android:name="com.aislingstuffthatmatters.personal_can_care.ResearchVideoShow"
+57-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:45:13-46
+58            android:exported="false" />
+58-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:46:13-37
+59        <activity
+59-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:47:9-49:40
+60            android:name="com.aislingstuffthatmatters.personal_can_care.ResearchVideo"
+60-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:48:13-42
+61            android:exported="false" />
+61-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:49:13-37
+62        <activity
+62-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:50:9-52:40
+63            android:name="com.aislingstuffthatmatters.personal_can_care.ResearchBookShow"
+63-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:51:13-45
+64            android:exported="false" />
+64-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:52:13-37
+65        <activity
+65-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:53:9-55:40
+66            android:name="com.aislingstuffthatmatters.personal_can_care.ResearchBook"
+66-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:54:13-41
+67            android:exported="false" />
+67-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:55:13-37
+68        <activity
+68-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:56:9-58:40
+69            android:name="com.aislingstuffthatmatters.personal_can_care.Research"
+69-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:57:13-37
+70            android:exported="false" />
+70-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:58:13-37
+71        <activity
+71-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:59:9-61:40
+72            android:name="com.aislingstuffthatmatters.personal_can_care.NecessarySvcsRecommend"
+72-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:60:13-51
+73            android:exported="false" />
+73-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:61:13-37
+74        <activity
+74-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:62:9-64:40
+75            android:name="com.aislingstuffthatmatters.personal_can_care.Feedback"
+75-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:63:13-37
+76            android:exported="false" />
+76-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:64:13-37
+77        <activity
+77-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:65:9-67:40
+78            android:name="com.aislingstuffthatmatters.personal_can_care.DietRecommendShow"
+78-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:66:13-46
+79            android:exported="false" />
+79-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:67:13-37
+80        <activity
+80-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:68:9-70:40
+81            android:name="com.aislingstuffthatmatters.personal_can_care.DietRecommend"
+81-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:69:13-42
+82            android:exported="false" />
+82-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:70:13-37
+83        <activity
+83-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:71:9-73:40
+84            android:name="com.aislingstuffthatmatters.personal_can_care.Diet"
+84-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:72:13-33
+85            android:exported="false" />
+85-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:73:13-37
+86        <activity
+86-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:74:9-76:40
+87            android:name="com.aislingstuffthatmatters.personal_can_care.Buddy"
+87-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:75:13-34
+88            android:exported="false" />
+88-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:76:13-37
+89        <activity
+89-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:77:9-79:40
+90            android:name="com.aislingstuffthatmatters.personal_can_care.AccessoryShow"
+90-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:78:13-42
+91            android:exported="false" />
+91-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:79:13-37
+92        <activity
+92-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:80:9-82:40
+93            android:name="com.aislingstuffthatmatters.personal_can_care.AccessoryRecommend"
+93-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:81:13-47
+94            android:exported="false" />
+94-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:82:13-37
+95        <activity
+95-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:83:9-85:40
+96            android:name="com.aislingstuffthatmatters.personal_can_care.Accessories"
+96-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:84:13-40
+97            android:exported="false" />
+97-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:85:13-37
+98        <activity
+98-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:86:9-88:40
+99            android:name="com.aislingstuffthatmatters.personal_can_care.About"
+99-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:87:13-34
+100            android:exported="false" />
+100-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:88:13-37
+101        <activity
+101-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:89:9-91:40
+102            android:name="com.aislingstuffthatmatters.personal_can_care.NecessarySvcs"
+102-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:90:13-42
+103            android:exported="false" />
+103-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:91:13-37
+104        <activity
+104-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:92:9-94:40
+105            android:name="com.aislingstuffthatmatters.personal_can_care.AdditionalSvcs"
+105-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:93:13-43
+106            android:exported="false" />
+106-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:94:13-37
+107        <activity
+107-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:95:9-103:20
+108            android:name="com.aislingstuffthatmatters.personal_can_care.MainActivity"
+108-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:96:13-41
+109            android:exported="true" >
+109-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:97:13-36
+110            <intent-filter>
+110-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:98:13-102:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:99:17-69
+111-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:99:25-66
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:101:17-77
+113-->C:\Users\Aisling\AndroidStudioProjects\Personal_Can_Care\app\src\main\AndroidManifest.xml:101:27-74
+114            </intent-filter>
+115        </activity>
+116
+117        <meta-data
+117-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:16:9-18:69
+118            android:name="com.google.android.gms.version"
+118-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:17:13-58
+119            android:value="@integer/google_play_services_version" />
+119-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:18:13-66
+120        <meta-data
+120-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:19:9-21:63
+121            android:name="com.facebook.sdk.ApplicationId"
+121-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:20:13-58
+122            android:value="@string/facebook_application_id" />
+122-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:21:13-60
+123
+124        <activity
+124-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:23:9-27:61
+125            android:name="com.firebase.ui.auth.KickoffActivity"
+125-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:24:13-64
+126            android:exported="false"
+126-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:25:13-37
+127            android:label=""
+127-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:26:13-29
+128            android:theme="@style/FirebaseUI.Transparent" />
+128-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:27:13-58
+129        <activity
+129-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:28:9-32:61
+130            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+130-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:29:13-76
+131            android:exported="false"
+131-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:30:13-37
+132            android:label=""
+132-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:31:13-29
+133            android:theme="@style/FirebaseUI.Transparent" />
+133-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:32:13-58
+134        <activity
+134-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:33:9-37:61
+135            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+135-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:34:13-86
+136            android:exported="false"
+136-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:35:13-37
+137            android:label=""
+137-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:36:13-29
+138            android:theme="@style/FirebaseUI.Transparent" />
+138-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:37:13-58
+139        <activity
+139-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:38:9-42:58
+140            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+140-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:39:13-81
+141            android:exported="false"
+141-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:40:13-37
+142            android:label="@string/fui_title_recover_password_activity"
+142-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:41:13-72
+143            android:windowSoftInputMode="adjustResize" />
+143-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:42:13-55
+144        <activity
+144-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:43:9-47:58
+145            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+145-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:44:13-71
+146            android:exported="false"
+146-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:45:13-37
+147            android:label="@string/fui_sign_in_default"
+147-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:46:13-56
+148            android:windowSoftInputMode="adjustResize" />
+148-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:47:13-55
+149        <activity
+149-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:48:9-52:77
+150            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+150-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:49:13-71
+151            android:exported="false"
+151-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:50:13-37
+152            android:label="@string/fui_sign_in_with_phone_number"
+152-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:51:13-66
+153            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+153-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:52:13-74
+154        <activity
+154-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:53:9-57:58
+155            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+155-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:54:13-76
+156            android:exported="false"
+156-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:55:13-37
+157            android:label="@string/fui_title_welcome_back_idp_prompt"
+157-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:56:13-70
+158            android:windowSoftInputMode="adjustResize" />
+158-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:57:13-55
+159        <activity
+159-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:58:9-62:58
+160            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+160-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:59:13-83
+161            android:exported="false"
+161-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:60:13-37
+162            android:label="@string/fui_title_welcome_back_password_prompt"
+162-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:61:13-75
+163            android:windowSoftInputMode="adjustResize" />
+163-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:62:13-55
+164        <activity
+164-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:63:9-67:58
+165            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+165-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:64:13-84
+166            android:exported="false"
+166-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:65:13-37
+167            android:label="@string/fui_title_welcome_back_password_prompt"
+167-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:66:13-75
+168            android:windowSoftInputMode="adjustResize" />
+168-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:67:13-55
+169        <activity
+169-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:68:9-73:58
+170            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+170-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:69:13-82
+171            android:exported="false"
+171-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:70:13-37
+172            android:label=""
+172-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:71:13-29
+173            android:theme="@style/FirebaseUI.Transparent"
+173-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:72:13-58
+174            android:windowSoftInputMode="adjustResize" />
+174-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:73:13-55
+175        <activity
+175-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:74:9-78:58
+176            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+176-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:75:13-88
+177            android:exported="false"
+177-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:76:13-37
+178            android:label="@string/fui_sign_in_default"
+178-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:77:13-56
+179            android:windowSoftInputMode="adjustResize" />
+179-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:78:13-55
+180        <activity
+180-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:79:9-82:65
+181            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+181-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:80:13-80
+182            android:exported="false"
+182-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:81:13-37
+183            android:label="@string/fui_default_toolbar_title" />
+183-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:82:13-62
+184        <activity
+184-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:83:9-87:48
+185            android:name="com.facebook.FacebookActivity"
+185-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:84:13-57
+186            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+186-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:85:13-96
+187            android:label="@string/app_name"
+187-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:86:13-45
+188            android:theme="@style/com_facebook_activity_theme" />
+188-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\5ab906cc189100ca3ad49c4f0330e0be\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+189        <activity
+189-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:88:9-100:20
+190            android:name="com.facebook.CustomTabActivity"
+190-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:89:13-58
+191            android:exported="true" >
+191-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:90:13-36
+192            <intent-filter>
+192-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:92:13-99:29
+193                <action android:name="android.intent.action.VIEW" />
+193-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:17-69
+193-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:25-66
+194
+195                <category android:name="android.intent.category.DEFAULT" />
+195-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:17-76
+195-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:27-73
+196                <category android:name="android.intent.category.BROWSABLE" />
+196-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:17-78
+196-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:27-75
+197
+198                <data android:scheme="@string/facebook_login_protocol_scheme" />
+198-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:17-81
+198-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:23-78
+199            </intent-filter>
+200            <intent-filter>
+200-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\5ab906cc189100ca3ad49c4f0330e0be\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+201                <action android:name="android.intent.action.VIEW" />
+201-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:17-69
+201-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:25-66
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:17-76
+203-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:27-73
+204                <category android:name="android.intent.category.BROWSABLE" />
+204-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:17-78
+204-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:27-75
+205
+206                <data
+206-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:17-81
+207                    android:host="cct.com.aislingstuffthatmatters.personal_can_care"
+208                    android:scheme="fbconnect" />
+208-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:23-78
+209            </intent-filter>
+210        </activity>
+211
+212        <provider
+212-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:102:9-106:38
+213            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+213-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:103:13-79
+214            android:authorities="com.aislingstuffthatmatters.personal_can_care.authuiinitprovider"
+214-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:104:13-70
+215            android:exported="false"
+215-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:105:13-37
+216            android:initOrder="90" />
+216-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:106:13-35
+217        <provider
+217-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:14:9-18:39
+218            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+218-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:15:13-82
+219            android:authorities="com.aislingstuffthatmatters.personal_can_care.firebaseperfprovider"
+219-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:16:13-72
+220            android:exported="false"
+220-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:17:13-37
+221            android:initOrder="101" />
+221-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:18:13-36
+222
+223        <service
+223-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:20:9-26:19
+224            android:name="com.google.firebase.components.ComponentDiscoveryService"
+224-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:21:13-84
+225            android:directBootAware="true"
+225-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e20b55b0187b970f4aa6947823857ff1\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+226            android:exported="false" >
+226-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:22:13-37
+227            <meta-data
+227-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:23:13-25:85
+228                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+228-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:24:17-109
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-perf:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e91d52025ca29c9891012738fe346186\transformed\jetified-firebase-perf-20.1.0\AndroidManifest.xml:25:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:67:13-69:85
+231                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+231-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:68:17-109
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:69:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1960e90971ff019619410389c097ad63\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:20:13-22:85
+234                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+234-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1960e90971ff019619410389c097ad63\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:21:17-111
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-firestore:24.1.2] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1960e90971ff019619410389c097ad63\transformed\jetified-firebase-firestore-24.1.2\AndroidManifest.xml:22:17-82
+236            <meta-data
+236-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\bec9d6d1bc8e733bb28019fc0a8ad1c7\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+237                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+237-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\bec9d6d1bc8e733bb28019fc0a8ad1c7\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\bec9d6d1bc8e733bb28019fc0a8ad1c7\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\c9717060bb65f22cdda458e120d625cf\transformed\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:28:13-30:85
+240                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+240-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\c9717060bb65f22cdda458e120d625cf\transformed\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:29:17-115
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\c9717060bb65f22cdda458e120d625cf\transformed\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:30:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-config:21.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\5a853040c1c78943f70e41befc96650d\transformed\jetified-firebase-config-21.1.0\AndroidManifest.xml:32:13-34:85
+243                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+243-->[com.google.firebase:firebase-config:21.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\5a853040c1c78943f70e41befc96650d\transformed\jetified-firebase-config-21.1.0\AndroidManifest.xml:33:17-117
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-config:21.1.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\5a853040c1c78943f70e41befc96650d\transformed\jetified-firebase-config-21.1.0\AndroidManifest.xml:34:17-82
+245            <meta-data
+245-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1c8f5b7984bbf5f7fdd104ef85e82737\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+246                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+246-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1c8f5b7984bbf5f7fdd104ef85e82737\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1c8f5b7984bbf5f7fdd104ef85e82737\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\d4e464b333f5bf1a06a495ad03a5f2e5\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+249                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+249-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\d4e464b333f5bf1a06a495ad03a5f2e5\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\d4e464b333f5bf1a06a495ad03a5f2e5\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+251            <meta-data
+251-->[com.google.firebase:firebase-abt:21.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b6ad70892d75c04d2d39029236ce60cd\transformed\jetified-firebase-abt-21.0.1\AndroidManifest.xml:13:13-15:85
+252                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+252-->[com.google.firebase:firebase-abt:21.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b6ad70892d75c04d2d39029236ce60cd\transformed\jetified-firebase-abt-21.0.1\AndroidManifest.xml:14:17-109
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.firebase:firebase-abt:21.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b6ad70892d75c04d2d39029236ce60cd\transformed\jetified-firebase-abt-21.0.1\AndroidManifest.xml:15:17-82
+254        </service>
+255
+256        <activity android:name="com.facebook.CustomTabMainActivity" />
+256-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\5ab906cc189100ca3ad49c4f0330e0be\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+256-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\5ab906cc189100ca3ad49c4f0330e0be\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+257        <activity
+257-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+258            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+258-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+259            android:excludeFromRecents="true"
+259-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+260            android:exported="false"
+260-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+262        <!--
+263            Service handling Google Sign-In user revocation. For apps that do not integrate with
+264            Google Sign-In, this service will never be started.
+265        -->
+266        <service
+266-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+267            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+267-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+268            android:exported="true"
+268-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+269            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+269-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+270            android:visibleToInstantApps="true" />
+270-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e1c961a8884ad9dd1f74c244d9ee3990\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+271
+272        <activity
+272-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:27:9-44:20
+273            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+273-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:28:13-80
+274            android:excludeFromRecents="true"
+274-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:29:13-46
+275            android:exported="true"
+275-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:30:13-36
+276            android:launchMode="singleTask"
+276-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:31:13-44
+277            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+277-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:32:13-72
+278            <intent-filter>
+278-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:33:13-43:29
+279                <action android:name="android.intent.action.VIEW" />
+279-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:17-69
+279-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:25-66
+280
+281                <category android:name="android.intent.category.DEFAULT" />
+281-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:17-76
+281-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:27-73
+282                <category android:name="android.intent.category.BROWSABLE" />
+282-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:17-78
+282-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:27-75
+283
+284                <data
+284-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:17-81
+285                    android:host="firebase.auth"
+286                    android:path="/"
+287                    android:scheme="genericidp" />
+287-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:23-78
+288            </intent-filter>
+289        </activity>
+290        <activity
+290-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:45:9-62:20
+291            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+291-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:46:13-79
+292            android:excludeFromRecents="true"
+292-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:47:13-46
+293            android:exported="true"
+293-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:48:13-36
+294            android:launchMode="singleTask"
+294-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:49:13-44
+295            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+295-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:50:13-72
+296            <intent-filter>
+296-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f9ecacba425bcbebb329fd6a5f4e089f\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:51:13-61:29
+297                <action android:name="android.intent.action.VIEW" />
+297-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:17-69
+297-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:93:25-66
+298
+299                <category android:name="android.intent.category.DEFAULT" />
+299-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:17-76
+299-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:95:27-73
+300                <category android:name="android.intent.category.BROWSABLE" />
+300-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:17-78
+300-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:96:27-75
+301
+302                <data
+302-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:17-81
+303                    android:host="firebase.auth"
+304                    android:path="/"
+305                    android:scheme="recaptcha" />
+305-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\1716fd0f7055d60641c40f296348cc67\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:98:23-78
+306            </intent-filter>
+307        </activity>
+308
+309        <service
+309-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\3e0354d43222664f2bc4ed433f41a135\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
+310            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+310-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\3e0354d43222664f2bc4ed433f41a135\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
+311            android:exported="false" >
+311-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\3e0354d43222664f2bc4ed433f41a135\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
+312            <meta-data
+312-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\3e0354d43222664f2bc4ed433f41a135\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
+313                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+313-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\3e0354d43222664f2bc4ed433f41a135\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
+314                android:value="cct" />
+314-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\3e0354d43222664f2bc4ed433f41a135\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
+315        </service>
+316        <service
+316-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f7312def4f091439cd722a4d8b9aaa1c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
+317            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+317-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f7312def4f091439cd722a4d8b9aaa1c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
+318            android:exported="false"
+318-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f7312def4f091439cd722a4d8b9aaa1c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+319            android:permission="android.permission.BIND_JOB_SERVICE" >
+319-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f7312def4f091439cd722a4d8b9aaa1c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+320        </service>
+321
+322        <receiver
+322-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f7312def4f091439cd722a4d8b9aaa1c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+323            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+323-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f7312def4f091439cd722a4d8b9aaa1c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+324            android:exported="false" />
+324-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f7312def4f091439cd722a4d8b9aaa1c\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+325
+326        <provider
+326-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e20b55b0187b970f4aa6947823857ff1\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+327            android:name="com.google.firebase.provider.FirebaseInitProvider"
+327-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e20b55b0187b970f4aa6947823857ff1\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+328            android:authorities="com.aislingstuffthatmatters.personal_can_care.firebaseinitprovider"
+328-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e20b55b0187b970f4aa6947823857ff1\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+329            android:directBootAware="true"
+329-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e20b55b0187b970f4aa6947823857ff1\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+330            android:exported="false"
+330-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e20b55b0187b970f4aa6947823857ff1\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+331            android:initOrder="100" />
+331-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\e20b55b0187b970f4aa6947823857ff1\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+332
+333        <activity
+333-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b2c7f3eaa5068e087b4abf12780ee137\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+334            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+334-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b2c7f3eaa5068e087b4abf12780ee137\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+335            android:exported="false"
+335-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b2c7f3eaa5068e087b4abf12780ee137\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+336            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+336-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\b2c7f3eaa5068e087b4abf12780ee137\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+337
+338        <receiver
+338-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+339            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+339-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+341            android:exported="false" >
+341-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+342        </receiver>
+343
+344        <service
+344-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+345            android:name="com.google.android.gms.measurement.AppMeasurementService"
+345-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+346            android:enabled="true"
+346-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+347            android:exported="false" />
+347-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+348        <service
+348-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+349            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+349-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+350            android:enabled="true"
+350-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+351            android:exported="false"
+351-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+352            android:permission="android.permission.BIND_JOB_SERVICE" />
+352-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\67ce88bb2feff8bb391fd16505aa89c2\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+353        <!--
+354         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+355         with the application context. This config is merged in with the host app's manifest,
+356         but there can only be one provider with the same authority activated at any given
+357         point; so if the end user has two or more different apps that use Facebook SDK, only the
+358         first one will be able to use the provider. To work around this problem, we use the
+359         following placeholder in the authority to identify each host application as if it was
+360         a completely different provider.
+361        -->
+362        <provider
+362-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+363            android:name="com.facebook.internal.FacebookInitProvider"
+363-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+364            android:authorities="com.aislingstuffthatmatters.personal_can_care.FacebookInitProvider"
+364-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+365            android:exported="false" />
+365-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+366
+367        <receiver
+367-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+368            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+368-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+369            android:exported="false" >
+369-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+370            <intent-filter>
+370-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+371                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+371-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+371-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f0745d843195287d478f17dd5dc41ab0\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+372            </intent-filter>
+373        </receiver>
+374
+375        <provider
+375-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f799add9ebe92be8777830de4b58866f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+376            android:name="androidx.startup.InitializationProvider"
+376-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f799add9ebe92be8777830de4b58866f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+377            android:authorities="com.aislingstuffthatmatters.personal_can_care.androidx-startup"
+377-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f799add9ebe92be8777830de4b58866f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+378            android:exported="false" >
+378-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f799add9ebe92be8777830de4b58866f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+379            <meta-data
+379-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f799add9ebe92be8777830de4b58866f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+380                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+380-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f799add9ebe92be8777830de4b58866f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+381                android:value="androidx.startup" />
+381-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\f799add9ebe92be8777830de4b58866f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+382            <meta-data
+382-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\fffd67a68fbc99c29d8c21d498bbe86a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+383                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+383-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\fffd67a68fbc99c29d8c21d498bbe86a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+384                android:value="androidx.startup" />
+384-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\fffd67a68fbc99c29d8c21d498bbe86a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+385        </provider>
+386
+387        <uses-library
+387-->[androidx.window:window:1.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\8534a8cf1b19b92ff27fc441444560e8\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+388            android:name="androidx.window.extensions"
+388-->[androidx.window:window:1.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\8534a8cf1b19b92ff27fc441444560e8\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+389            android:required="false" />
+389-->[androidx.window:window:1.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\8534a8cf1b19b92ff27fc441444560e8\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+390        <uses-library
+390-->[androidx.window:window:1.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\8534a8cf1b19b92ff27fc441444560e8\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+391            android:name="androidx.window.sidecar"
+391-->[androidx.window:window:1.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\8534a8cf1b19b92ff27fc441444560e8\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+392            android:required="false" />
+392-->[androidx.window:window:1.0.0] C:\Users\Aisling\AndroidStudioProjects\PeataLeat\caches\transforms-3\8534a8cf1b19b92ff27fc441444560e8\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+393    </application>
+394
+395</manifest>
